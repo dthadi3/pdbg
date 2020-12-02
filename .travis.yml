@@ -1,6 +1,10 @@
 services:
     - docker
 
+arch:
+    - AMD64
+    - ppc64le
+
 script:
     - ./utils/build.sh
     - ./utils/test.sh
